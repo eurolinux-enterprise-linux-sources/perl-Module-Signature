@@ -1,6 +1,6 @@
 Name:           perl-Module-Signature
 Version:        0.73
-Release:        1%{?dist}.2
+Release:        2%{?dist}
 Summary:        CPAN signature management utilities and modules
 Group:          Development/Libraries
 # script/cpansign:  GPL+ or Artistic (bug #965126)
@@ -91,6 +91,9 @@ make -C Module-Signature-%{version} test TEST_SIGNATURE=1
 %{_mandir}/man3/Module::Signature.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.73-2
+- Mass rebuild 2013-12-27
+
 * Mon Jul 29 2013 Petr Pisar <ppisar@redhat.com> - 0.73-1.2
 - Specify all dependencies
 
